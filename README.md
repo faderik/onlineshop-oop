@@ -6,5 +6,5 @@
 1. Mohammad Faderik Izzul Haq
 2. Iwan Dwi Prakoso
 
-# Class Diagram
+## Class Diagram
 

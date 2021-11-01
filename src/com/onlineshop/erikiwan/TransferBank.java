@@ -9,19 +9,15 @@ public class TransferBank implements Payment{
 		this.bankId = bankId;
 		this.number = number;
 	}
-
 	public String getBankId() {
 		return bankId;
 	}
-
 	public void setBankId(String bankId) {
 		this.bankId = bankId;
 	}
-
 	public String getNumber() {
 		return number;
 	}
-
 	public void setNumber(String number) {
 		this.number = number;
 	}

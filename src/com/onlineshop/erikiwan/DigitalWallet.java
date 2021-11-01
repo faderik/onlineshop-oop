@@ -9,19 +9,15 @@ public class DigitalWallet implements Payment {
 		this.walletId = walletId;
 		this.number = number;
 	}
-
 	public String getWalletId() {
 		return walletId;
 	}
-
 	public void setWalletId(String walletId) {
 		this.walletId = walletId;
 	}
-
 	public String getNumber() {
 		return number;
 	}
-
 	public void setNumber(String number) {
 		this.number = number;
 	}

@@ -16,39 +16,30 @@ public class Order {
 		this.status = status;
 		this.items = items;
 	}
-	
 	public String getId() {
 		return id;
 	}
-
 	public void setId(String id) {
 		this.id = id;
 	}
-
 	public Date getDate() {
 		return date;
 	}
-
 	public void setDate(Date date) {
 		this.date = date;
 	}
-
 	public String getStatus() {
 		return status;
 	}
-
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	
 	public void updateStatus(String status) {
 		this.setStatus(status);
 	}
-	
 	public ArrayList<Item> getItems() {
 		return items;
 	}
-
 	public void setItems(ArrayList<Item> items) {
 		this.items = items;
 	}

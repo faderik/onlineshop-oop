@@ -9,15 +9,12 @@ public class ShopingCart {
 		super();
 		this.items = items;
 	}
-
 	public ArrayList<Item> getItems() {
 		return items;
 	}
-
 	public void setItems(ArrayList<Item> items) {
 		this.items = items;
 	}
-	
 	public Double getTotalPrice() {
 		Double total = 0.0;
 		

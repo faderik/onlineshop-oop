@@ -20,57 +20,44 @@ public class Customer extends Account {
 		this.shopingCart = shopingCart;
 		this.orders = orders;
 	}
-	
 	public Customer(String firstName, String lastName, String email, String password) {
 		super("#id", email, password);
 		this.firstName = firstName;
 		this.lastName =  lastName;
 	}
-
 	public String getFirstName() {
 		return firstName;
 	}
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-
 	public String getLastName() {
 		return lastName;
 	}
-
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
 	public Address getAddress() {
 		return address;
 	}
-
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-
 	public String getPhone() {
 		return phone;
 	}
-
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-
 	public ShopingCart getShopingCart() {
 		return shopingCart;
 	}
-
 	public void setShopingCart(ShopingCart shopingCart) {
 		this.shopingCart = shopingCart;
 	}
-
 	public ArrayList<Order> getOrders() {
 		return orders;
 	}
-
 	public void setOrders(ArrayList<Order> orders) {
 		this.orders = orders;
 	}
@@ -89,8 +76,7 @@ public class Customer extends Account {
 		System.out.println(
 				this.getFirstName() + 
 				" telah membayar order ke " + index + "\n"
-				);
-		
+		);
 	}
 	
 	public void updateCart(ArrayList<Item> items) {
@@ -111,10 +97,5 @@ public class Customer extends Account {
 	public void emptyCart() {
 		this.getShopingCart().empty();
 	}
-	
-	
-	
-	
-	
-	
+
 }
